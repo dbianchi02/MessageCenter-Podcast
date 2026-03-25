@@ -82,21 +82,15 @@ Azure Automation (08:10) --> VM spenta
 ## Struttura del repository
 
 ```
-m365-podcast/
+GetMessageCenter-Scripts/
 |-- Start-PodcastPipeline.ps1     # Script master di orchestrazione
 |-- Core/
-|   |-- config.ps1                # Variabili di configurazione (NON versionare con credenziali reali)
 |   |-- Get-MessageCenterForAI.ps1
 |   |-- Generate-PodcastScript.ps1
 |   |-- Convert-PodcastToAudio.ps1
 |   |-- Send-PodcastTelegram.ps1
 |   |-- system_prompt.txt         # System prompt per GPT-4o mini
-|-- Output/                       # JSON giornalieri (ignorati da .gitignore)
-|-- Podcast/                      # Script .txt giornalieri (ignorati da .gitignore)
-|-- Audio/                        # File .mp3 giornalieri (ignorati da .gitignore)
-|-- Logs/                         # Log pipeline giornalieri (ignorati da .gitignore)
-|-- docs/
-|   |-- architecture.svg          # Diagramma architettura
+|-- architecture.svg          # Diagramma architettura
 |-- .gitignore
 |-- LICENSE
 |-- README.md
