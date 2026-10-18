@@ -11,7 +11,7 @@
 # Endpoint e chiave del tuo deployment su Azure AI Foundry
 # Trovali in AI Foundry → il tuo progetto → Deployments → GPT-4o mini → Endpoint
 $AIEndpoint   = 'https://message-center-podcast-resource.cognitiveservices.azure.com'   # es. https://xxx.openai.azure.com
-$AIKey        = 'C8yFQexFCD86F9UMLs3QxSPjo9RFLBPie2xcJ5T7xuEiMQtcvLrZJQQJ99CCAC5RqLJXJ3w3AAAAACOG0lXh'
+$AIKey        = 'KEY'
 $DeploymentName = 'gpt-4o-mini'           # nome esatto del deployment in Foundry
 
 # Cartelle — devono coincidere con quelle di Get-MessageCenterForAI.ps1
