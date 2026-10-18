@@ -10,8 +10,8 @@
 # ==============================================================================
 
 # Endpoint completo del deployment gpt-4o-mini-tts su Azure AI Foundry
-$TTSEndpoint = 'https://hello-mmysxg5v-eastus2.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini-tts/audio/speech?api-version=2025-03-01-preview'
-$TTSKey      = 'AZwDBfbn26lOVKiOYTTTolu49MjZcJodoUtOYQHRH9uW03kcpPyWJQQJ99CCACHYHv6XJ3w3AAAAACOG9x5X'   # Rigenera la chiave dal portale Azure e inseriscila qui
+$TTSEndpoint = 'ENDPOINT'
+$TTSKey      = 'KEY'   # Rigenera la chiave dal portale Azure e inseriscila qui
 
 # Voci OpenAI — scelte per massima distinzione e naturalezza in italiano
 # alloy: tono maschile neutro e professionale — perfetto per Alex il conduttore
