@@ -83,8 +83,8 @@ Write-Host "OK — $($Output.messageCount) messaggi salvati in: $OutputFile"
 if ($Output.messageCount -eq 0) {
     Write-Host "Nessun messaggio oggi — invio notifica Telegram."
 
-    $TelegramToken  = '8700705815:AAE3xc5nET3Hz8TV-a-CqoSFkKJqO1Dg2Xg'
-    $TelegramChatId = '-5240578577'
+    $TelegramToken  = 'TOKEN TELEGRAM'
+    $TelegramChatId = 'CHAT ID'
     $Uri  = "https://api.telegram.org/bot$TelegramToken/sendMessage"
     $Body = @{
         chat_id    = $TelegramChatId
