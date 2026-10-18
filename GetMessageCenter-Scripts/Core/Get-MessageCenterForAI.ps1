@@ -9,9 +9,9 @@
 # CONFIGURAZIONE — sostituisci con i tuoi valori reali
 # ==============================================================================
 
-$TenantID             = 'e5e153cb-1ee5-41b4-99ce-0331ea258a0a'
-$ClientID             = '8a35cb92-c67c-4473-a8ee-0fc8861a7d0f'
-$CertificateThumbprint = 'C2E0E9D5ADF51F1E915D1B6C915E03E9BDD0BCB3'
+$TenantID             = 'TENANT ID'
+$ClientID             = 'CLIENT ID'
+$CertificateThumbprint = 'THUMBPRINT'
 
 # Cartella di output — deve esistere o viene creata automaticamente
 $OutputFolder = 'C:\Script\GetMessageCenter\Output'
