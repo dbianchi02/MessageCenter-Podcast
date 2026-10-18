@@ -3,8 +3,8 @@
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 $OutputEncoding = [System.Text.Encoding]::UTF8
 
-$TelegramToken  = '8700705815:AAE3xc5nET3Hz8TV-a-CqoSFkKJqO1Dg2Xg'
-$TelegramChatId = '-5240578577'
+$TelegramToken  = 'TOKEN TELEGRAM'
+$TelegramChatId = 'CHAT ID'
 $AudioFolder    = 'C:\Script\GetMessageCenter\Audio'
 
 $AudioFile = Join-Path $AudioFolder ("podcast_{0}.mp3" -f (Get-Date -Format "yyyy-MM-dd"))
